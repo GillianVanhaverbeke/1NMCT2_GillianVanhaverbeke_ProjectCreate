@@ -1,0 +1,241 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /*background: black url("https://wallpaperscraft.com/image/space_light_stars_65787_3840x2160.jpg") no-repeat center center fixed;*/
+	background: black url("https://images4.alphacoders.com/430/thumb-1920-43034.jpg") no-repeat fixed center;
+    /*-webkit-background-size: cover; !* For WebKit*!*/
+    /*-moz-background-size: cover;    !* Mozilla*!*/
+    /*-o-background-size: cover;      !* Opera*!*/
+    /*background-size: cover;         !* Generic*!*/
+}
+
+#LoginScreenWrapper {
+	height:100vh;
+	width:100%;
+	transition: all 0.7s;
+	transform: translateY(0%);
+}
+
+#wrapper{
+    padding:10px;
+	
+	width:90%;
+	margin:auto;
+	margin-top:40px;
+	
+	transform:translateY(-2%);
+}
+
+#PictureOfTheDayAuthor {
+	max-height:483px;
+	margin-left:10px;
+	
+	top:-20px;
+}
+
+#PictureOfTheDayDescription {
+	height:255px;
+	
+	max-height:255px;
+	
+	display: -webkit-box;
+	-webkit-line-clamp: 13;
+	-webkit-box-orient: vertical; 
+	
+	text-overflow: ellipsis;
+}
+
+#logo {
+	width:120px;
+	height:100px;
+	position:absolute;
+	margin-left:30%;
+	
+	transform:translateY(-85%);
+}
+
+.contentWrapper{
+	width:90%;
+	margin:auto;
+	
+	
+}
+
+.GraphPieStyle {
+	height: 95%;
+	width: 100%;
+	
+	min-height:255px;
+	max-height:255px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #0b3d91;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #0b3d91;
+	
+	
+}
+
+.banner h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin:0;
+    padding: 8px;
+}
+
+.card {
+    background: #0b3d91;
+    border-radius: 5px;
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.card .title h2 {
+    text-align: center;
+    color: white;
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+.card .content {
+    background-color: white;
+    padding: 5px;	
+	height:100%;
+	
+	font-size:1em;
+}
+
+
+.col-lg-4  {
+	margin-left: auto;
+	margin-right: auto;
+	
+	height:100%;
+}
+
+.card .content p {
+    font-size: 1em;
+}
+
+.card .content img {
+    width: 100%;
+    height: 75%;
+	
+	max-height:405px;
+	
+    object-fit: cover;
+}
+
+.GraphStyle{
+    height: 100%;
+    min-height: 427px;
+}
+
+.blue {
+    background: #0b3d91;
+}
+
+#LoginScreenWrapper{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-block{
+    padding: 20px;
+}
+
+.LoginButton{
+    display: block;
+    background-color: #0b3d91;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#username{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+#password{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.top{
+    top: 350px;
+    display: block;
+}
+
+a:hover, a:focus {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.white{
+    background-color: white;
+}
+
+.login-head{
+    color: #0b3d91;
+    font-size: 50px;
+    padding: 10px;
+    width: 180px;
+    border: solid 4px #0b3d91;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+* { box-sizing: border-box; }
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+    .vid-info { width: 50%; padding: .5rem; }
+    .vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+    .vid-info .acronym { display: none; }
+}
